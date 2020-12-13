@@ -45,7 +45,7 @@ a {
   @include crxTransition($transition);
 
   &:hover,
-  &:visited { color: darken($color-font, 30%); }
+  &:visited { color: $color-accent }
   &:active { color: darken($color-font, 50%); }
 
 }
