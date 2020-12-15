@@ -46,7 +46,7 @@ a {
 
   &:hover,
   &:visited { color: $color-accent }
-  &:active { color: darken($color-font, 50%); }
+  &:active { color: darken($color-accent, 20%); }
 
 }
 
